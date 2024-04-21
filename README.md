@@ -20,4 +20,3 @@
 
 
 
-Пример того, как это будет выглядеть в кнопочной форме: https://pixso.net/app/editor/wsmp34Z9iV3q9s96F2UAwg?icon_type=1&page-id=0%3A1 
