@@ -23,5 +23,6 @@
 Если Пользователь выбирает "ОБЩИЕ ФИНАНСЫ", то система выводит окно с общими оставшимися на счете средствами, которые не были задействованы в операциях "РАСХОДЫ" и "СБЕРЕЖЕНИЯ"
 
 
-![image](https://github.com/mrysoo/business-process-of-accounting-for-finances/assets/165904379/8d92ca7c-99d1-4c0a-8bbd-993dcca05624)
+![image](https://github.com/mrysoo/business-process-of-accounting-for-finances/assets/165904379/009d5dc3-c438-4aa6-872a-f36affdf740e)
+
 Логическая диаграмма базы данных
