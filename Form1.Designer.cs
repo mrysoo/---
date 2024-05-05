@@ -41,6 +41,9 @@
             this.txtSavingsAmount = new System.Windows.Forms.TextBox();
             this.txtSavingsName = new System.Windows.Forms.TextBox();
             this.btnShowBalance = new System.Windows.Forms.Button();
+            this.btnShowTotalIncome = new System.Windows.Forms.Button();
+            this.btnShowTotalExpense = new System.Windows.Forms.Button();
+            this.btnShowTotalSavings = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -154,11 +157,44 @@
             this.btnShowBalance.UseVisualStyleBackColor = true;
             this.btnShowBalance.Click += new System.EventHandler(this.btnShowBalance_Click);
             // 
+            // btnShowTotalIncome
+            // 
+            this.btnShowTotalIncome.Location = new System.Drawing.Point(13, 141);
+            this.btnShowTotalIncome.Name = "btnShowTotalIncome";
+            this.btnShowTotalIncome.Size = new System.Drawing.Size(101, 39);
+            this.btnShowTotalIncome.TabIndex = 19;
+            this.btnShowTotalIncome.Text = "Общая сумма доходов";
+            this.btnShowTotalIncome.UseVisualStyleBackColor = true;
+            this.btnShowTotalIncome.Click += new System.EventHandler(this.btnShowTotalIncome_Click_1);
+            // 
+            // btnShowTotalExpense
+            // 
+            this.btnShowTotalExpense.Location = new System.Drawing.Point(196, 141);
+            this.btnShowTotalExpense.Name = "btnShowTotalExpense";
+            this.btnShowTotalExpense.Size = new System.Drawing.Size(100, 39);
+            this.btnShowTotalExpense.TabIndex = 20;
+            this.btnShowTotalExpense.Text = "Общая сумма расходов";
+            this.btnShowTotalExpense.UseVisualStyleBackColor = true;
+            this.btnShowTotalExpense.Click += new System.EventHandler(this.btnShowTotalExpense_Click);
+            // 
+            // btnShowTotalSavings
+            // 
+            this.btnShowTotalSavings.Location = new System.Drawing.Point(451, 141);
+            this.btnShowTotalSavings.Name = "btnShowTotalSavings";
+            this.btnShowTotalSavings.Size = new System.Drawing.Size(100, 39);
+            this.btnShowTotalSavings.TabIndex = 21;
+            this.btnShowTotalSavings.Text = "Общая сумма сбережений";
+            this.btnShowTotalSavings.UseVisualStyleBackColor = true;
+            this.btnShowTotalSavings.Click += new System.EventHandler(this.btnShowTotalSavings_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnShowTotalSavings);
+            this.Controls.Add(this.btnShowTotalExpense);
+            this.Controls.Add(this.btnShowTotalIncome);
             this.Controls.Add(this.btnShowBalance);
             this.Controls.Add(this.txtSavingsName);
             this.Controls.Add(this.txtSavingsAmount);
@@ -194,6 +230,9 @@
         private System.Windows.Forms.TextBox txtSavingsAmount;
         private System.Windows.Forms.TextBox txtSavingsName;
         private System.Windows.Forms.Button btnShowBalance;
+        private System.Windows.Forms.Button btnShowTotalIncome;
+        private System.Windows.Forms.Button btnShowTotalExpense;
+        private System.Windows.Forms.Button btnShowTotalSavings;
     }
 }
 
